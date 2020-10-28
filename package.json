@@ -21,7 +21,7 @@
     "@aws-cdk/assert": "1.66.0",
     "@types/app-root-path": "1.2.4",
     "@types/aws-lambda": "8.10.63",
-    "@types/jest": "26.0.10",
+    "@types/jest": "26.0.15",
     "@types/node": "10.17.27",
     "app-root-path": "3.0.0",
     "chalk": "4.1.0",
