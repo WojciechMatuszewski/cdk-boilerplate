@@ -20,7 +20,7 @@
   "devDependencies": {
     "@aws-cdk/assert": "1.66.0",
     "@types/app-root-path": "1.2.4",
-    "@types/aws-lambda": "8.10.63",
+    "@types/aws-lambda": "8.10.64",
     "@types/jest": "26.0.10",
     "@types/node": "10.17.27",
     "app-root-path": "3.0.0",
