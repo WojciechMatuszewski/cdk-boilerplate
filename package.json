@@ -18,28 +18,29 @@
     "bootstrap": "npm run synth && cdk bootstrap"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.66.0",
     "@types/app-root-path": "1.2.4",
     "@types/aws-lambda": "8.10.63",
     "@types/jest": "26.0.15",
     "@types/node": "10.17.27",
     "app-root-path": "3.0.0",
     "chalk": "4.1.0",
-    "esbuild": "0.7.8",
+    "esbuild": "0.8.11",
     "fast-glob": "3.2.4",
     "is-ci": "2.0.0",
     "is-ci-cli": "2.1.2",
     "jest": "26.4.2",
-    "ts-jest": "26.2.0",
+    "ts-jest": "26.4.0",
     "ts-node": "9.0.0",
     "typescript": "4.0.5",
-    "yargs": "16.0.3"
+    "yargs": "16.0.3",
+    "@aws-cdk/assert": "1.74.0",
+    "@aws-cdk/aws-apigatewayv2": "1.74.0",
+    "@aws-cdk/aws-lambda": "1.74.0",
+    "@aws-cdk/core": "1.74.0",
+    "aws-cdk": "1.74.0",
+    "source-map-support": "0.5.19"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigatewayv2": "1.66.0",
-    "@aws-cdk/aws-lambda": "1.66.0",
-    "@aws-cdk/core": "1.66.0",
-    "aws-cdk": "1.70.0",
-    "source-map-support": "0.5.19"
+    "aws-sdk": "2.799.0"
   }
 }
