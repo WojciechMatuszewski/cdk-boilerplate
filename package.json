@@ -15,32 +15,34 @@
     "clean": "rm -rf dist cdk.out",
     "synth": "npm run build && cdk synth",
     "deploy": "npm run synth && cdk deploy",
-    "bootstrap": "npm run synth && cdk bootstrap"
+    "bootstrap": "npm run synth && cdk bootstrap",
+    "update": "ncu -u"
   },
   "devDependencies": {
+    "@aws-cdk/assert": "1.76.0",
+    "@aws-cdk/aws-apigatewayv2": "1.76.0",
+    "@aws-cdk/aws-lambda": "1.76.0",
+    "@aws-cdk/core": "1.76.0",
     "@types/app-root-path": "1.2.4",
-    "@types/aws-lambda": "8.10.63",
-    "@types/jest": "26.0.15",
-    "@types/node": "10.17.27",
+    "@types/aws-lambda": "8.10.64",
+    "@types/jest": "26.0.16",
+    "@types/node": "14.14.10",
     "app-root-path": "3.0.0",
+    "aws-cdk": "1.76.0",
     "chalk": "4.1.0",
-    "esbuild": "0.8.11",
+    "esbuild": "0.8.19",
     "fast-glob": "3.2.4",
     "is-ci": "2.0.0",
     "is-ci-cli": "2.1.2",
-    "jest": "26.4.2",
-    "ts-jest": "26.4.0",
-    "ts-node": "9.0.0",
-    "typescript": "4.0.5",
-    "yargs": "16.0.3",
-    "@aws-cdk/assert": "1.75.0",
-    "@aws-cdk/aws-apigatewayv2": "1.75.0",
-    "@aws-cdk/aws-lambda": "1.75.0",
-    "@aws-cdk/core": "1.75.0",
-    "aws-cdk": "1.75.0",
-    "source-map-support": "0.5.19"
+    "jest": "26.6.3",
+    "npm-check-updates": "10.2.2",
+    "source-map-support": "0.5.19",
+    "ts-jest": "26.4.4",
+    "ts-node": "9.1.0",
+    "typescript": "4.1.2",
+    "yargs": "16.1.1"
   },
   "dependencies": {
-    "aws-sdk": "2.799.0"
+    "aws-sdk": "2.804.0"
   }
 }
