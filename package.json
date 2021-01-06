@@ -16,7 +16,8 @@
     "synth": "npm run build && cdk synth > /dev/null",
     "deploy": "npm run synth && cdk deploy",
     "bootstrap": "npm run synth && cdk bootstrap",
-    "update": "ncu -u"
+    "update": "ncu -u",
+    "destroy": "cdk destroy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.82.0",
