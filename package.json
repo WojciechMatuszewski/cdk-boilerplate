@@ -13,24 +13,24 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand --detectOpenHandles",
     "clean": "rm -rf dist cdk.out",
-    "synth": "npm run build && cdk synth",
+    "synth": "npm run build && cdk synth > /dev/null",
     "deploy": "npm run synth && cdk deploy",
     "bootstrap": "npm run synth && cdk bootstrap",
     "update": "ncu -u"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.78.0",
-    "@aws-cdk/aws-apigatewayv2": "1.78.0",
-    "@aws-cdk/aws-lambda": "1.78.0",
-    "@aws-cdk/core": "1.78.0",
+    "@aws-cdk/assert": "1.82.0",
+    "@aws-cdk/aws-apigatewayv2": "1.82.0",
+    "@aws-cdk/aws-lambda": "1.82.0",
+    "@aws-cdk/core": "1.82.0",
     "@types/app-root-path": "1.2.4",
-    "@types/aws-lambda": "8.10.66",
+    "@types/aws-lambda": "8.10.70",
     "@types/jest": "26.0.19",
-    "@types/node": "14.14.13",
+    "@types/node": "14.14.20",
     "app-root-path": "3.0.0",
-    "aws-cdk": "1.78.0",
+    "aws-cdk": "1.82.0",
     "chalk": "4.1.0",
-    "esbuild": "0.8.22",
+    "esbuild": "0.8.30",
     "fast-glob": "3.2.4",
     "is-ci": "2.0.0",
     "is-ci-cli": "2.1.2",
@@ -43,6 +43,6 @@
     "yargs": "16.2.0"
   },
   "dependencies": {
-    "aws-sdk": "2.809.0"
+    "aws-sdk": "2.822.0"
   }
 }
